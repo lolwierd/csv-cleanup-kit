@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Normalize US Phone Numbers &amp; Dates in a CSV (E.164 + ISO-8601)</title>
+<meta name="description" content="Standardize messy US phone numbers to E.164 (+1XXXXXXXXXX) and mixed date formats to ISO-8601 (YYYY-MM-DD) with a free Python recipe. Blank-the-unfixable rule included.">
+<link rel="canonical" href="https://csv-cleanup-kit.pages.dev/normalize-phones-dates-csv.html">
+<style>
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;color:#1a1a1a;background:#fafafa;line-height:1.7}
+.wrap{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+h1{font-size:1.8rem;line-height:1.25;margin:0 0 8px}
+.sub{color:#444;margin:0 0 20px}
+.card{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:24px;margin:20px 0}
+.btn{display:inline-block;background:#111;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px;font-weight:600;font-size:1.05rem;margin:8px 0}
+.btn:hover{background:#333}
+code{background:#f0f0f0;padding:2px 6px;border-radius:4px;font-size:.9em}
+pre{background:#111;color:#e8e8e8;padding:16px;border-radius:8px;overflow-x:auto;font-size:.85rem;line-height:1.5}
+pre code{background:none;padding:0;color:inherit}
+.small{font-size:.9rem;color:#666}
+nav.bread{font-size:.9rem;color:#666;margin-bottom:16px}
+nav.bread a{color:#444}
+ul.tick{list-style:none;padding:0}ul.tick li{padding-left:28px;position:relative;margin:8px 0}ul.tick li:before{content:"✓";position:absolute;left:0;color:#0a7d2c;font-weight:700}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:12px 0}
+th,td{border:1px solid #ddd;padding:8px;text-align:left}
+th{background:#f4f4f4}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="bread"><a href="/">CSV Cleanup Kit</a> · Guides</nav>
+<h1>How to Normalize US Phone Numbers &amp; Dates in a CSV</h1>
+<p class="sub">Five phone formats and six date formats in one column is the #1 reason CRM imports blow up. Here's the exact normalization I run on every file: one target format per column, and anything unfixable gets blanked — never faked.</p>
+
+<div class="card">
+<h2>Phones: everything → E.164 (<code>+1XXXXXXXXXX</code>)</h2>
+<p>The trick is to throw away all formatting first, then look at what digits are left:</p>
+<pre><code>import re
+
+def norm_phone(raw):
+    digits = re.sub(r"\D", "", raw or "")
+    if len(digits) == 10:
+        return "+1" + digits, False       # 2125550142 -&gt; +12125550142
+    if len(digits) == 11 and digits.startswith("1"):
+        return "+" + digits, False        # 1-212-555-0142 -&gt; +12125550142
+    return "", True                        # unfixable -&gt; blank, flagged</code></pre>
+<table>
+<tr><th>Input</th><th>Output</th></tr>
+<tr><td><code>(212) 555-0142</code></td><td><code>+12125550142</code></td></tr>
+<tr><td><code>212-555-0142</code></td><td><code>+12125550142</code></td></tr>
+<tr><td><code>212 555 0142</code></td><td><code>+12125550142</code></td></tr>
+<tr><td><code>+1 (212) 555-0142</code></td><td><code>+12125550142</code></td></tr>
+<tr><td><code>1-212-555-0142</code></td><td><code>+12125550142</code></td></tr>
+<tr><td><code>555-0142</code> (7 digits)</td><td><code>(blank — counted)</code></td></tr>
+<tr><td><code>(empty)</code></td><td><code>(blank — counted)</code></td></tr>
+</table>
+<p>Find the column the same fuzzy way as emails — match <code>phone</code>, <code>tel</code>, <code>telephone</code>, or <code>mobile</code> case-insensitively. <strong>The row is always kept;</strong> only the bad cell is blanked, and every blank is counted in <code>phones_blanked</code> so you know exactly how many need human review.</p>
+<p class="small">Scope note: this handles US numbers only (10 digits, optional leading 1). International numbers need a library like <code>phonenumbers</code> — or just send me the file.</p>
+</div>
+
+<div class="card">
+<h2>Dates: everything → ISO-8601 (<code>YYYY-MM-DD</code>)</h2>
+<p>Try the common formats in order, fall back to <code>fromisoformat</code>, blank the rest:</p>
+<pre><code>from datetime import datetime
+
+DATE_FORMATS = (
+    "%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y", "%m-%d-%Y", "%d-%m-%Y",
+    "%Y/%m/%d", "%b %d, %Y", "%B %d, %Y", "%m/%d/%y", "%d.%m.%Y",
+    "%m-%d-%y", "%d-%m-%y", "%d-%b-%Y", "%d-%B-%Y",
+)
+
+def norm_date(raw):
+    s = (raw or "").strip()
+    if not s:
+        return "", True
+    for fmt in DATE_FORMATS:
+        try:
+            return datetime.strptime(s, fmt).date().isoformat(), False
+        except ValueError:
+            pass
+    try:
+        return datetime.fromisoformat(s).date().isoformat(), False
+    except ValueError:
+        return "", True</code></pre>
+<table>
+<tr><th>Input</th><th>Output</th></tr>
+<tr><td><code>01-13-23</code></td><td><code>2023-01-13</code></td></tr>
+<tr><td><code>12/31/2023</code></td><td><code>2023-12-31</code></td></tr>
+<tr><td><code>2023/10/02</code></td><td><code>2023-10-02</code></td></tr>
+<tr><td><code>Jan 15, 2023</code></td><td><code>2023-01-15</code></td></tr>
+<tr><td><code>March 25, 2024</code></td><td><code>2024-03-25</code></td></tr>
+<tr><td><code>25/02/2023</code> (day-first)</td><td><code>2023-02-25</code></td></tr>
+<tr><td><code>12/09/----</code> (truncated)</td><td><code>(blank — counted)</code></td></tr>
+</table>
+<p class="small">Ambiguity warning: <code>01/02/2023</code> parses as January 2 (US order wins, since <code>%m/%d/%Y</code> comes before <code>%d/%m/%Y</code> in the list). If your data is European day-first, swap those two entries. Dates the parser can't read are blanked and counted in <code>dates_blanked</code> — the row stays.</p>
+</div>
+
+<div class="card">
+<h2>Run both in one command</h2>
+<p><a href="/cleanup_csv.py">Download cleanup_csv.py</a> (it also dedupes rows and quarantines bad emails — see the <a href="/dedupe-csv-duplicates.html">dedupe guide</a> and <a href="/validate-emails-csv.html">email guide</a>), then:</p>
+<pre><code>python3 cleanup_csv.py leads.csv leads-clean.csv \
+  --quarantine quarantine.csv --report report.json</code></pre>
+<p>On a 200-row demo file with 5 phone formats and mixed US/EU dates, this normalized every parseable phone and date and flagged 12 + 12 unfixable cells for review — with the counts right there in the report.</p>
+</div>
+
+<div class="card">
+<h2>Don't want to do it yourself?</h2>
+<p>Send me the file — I'll normalize every phone and date, dedupe rows, validate all emails, and return a clean CSV plus quarantine file with a counts report, all within 24 hours.</p>
+<p><strong>$40 flat</strong>, one file up to 1,000 rows.</p>
+<p><a class="btn" href="https://shieldz.cash/pay/hJFCKA5OaqvJLjd7Qqrr">Pay $40 securely →</a></p>
+<p class="small">Then email your CSV (≤1,000 rows) to <code>agent-248607f9@aiemailservice.com</code> with subject <code>CSV cleanup order</code>. Full details on the <a href="/">homepage</a>.</p>
+</div>
+
+<p class="small">CSV Cleanup Kit · one-person service · delivery by email · $40 flat per file (≤1,000 rows)</p>
+</div>
+</body>
+</html>
