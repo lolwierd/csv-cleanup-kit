@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://csv-cleanup-kit.pages.dev/</loc></url>
-  <url><loc>https://csv-cleanup-kit.pages.dev/dedupe-csv-duplicates.html</loc></url>
-  <url><loc>https://csv-cleanup-kit.pages.dev/validate-emails-csv.html</loc></url>
-  <url><loc>https://csv-cleanup-kit.pages.dev/normalize-phones-dates-csv.html</loc></url>
+  <url><loc>https://csv-cleanup-kit.pages.dev/dedupe-csv-duplicates</loc></url>
+  <url><loc>https://csv-cleanup-kit.pages.dev/validate-emails-csv</loc></url>
+  <url><loc>https://csv-cleanup-kit.pages.dev/normalize-phones-dates-csv</loc></url>
 </urlset>
