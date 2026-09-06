@@ -32,6 +32,20 @@ ul.tick{list-style:none;padding:0}ul.tick li{padding-left:28px;position:relative
 </div>
 
 <div class="card">
+<h2>Proof, not promises</h2>
+<p>I ran this exact process on a nasty 200-row demo file (duplicate rows, 'JOHN SMITH' vs 'john smith', spaced-out emails, 5 phone/date formats, $ vs USD, 'Contaced' typos):</p>
+<ul class="tick">
+<li><strong>200 rows in → 161 import-ready rows out</strong></li>
+<li><strong>25 duplicate rows removed</strong> (normalized-email match, count reported)</li>
+<li><strong>14 bad emails quarantined</strong> (missing @, double @@, no TLD — listed with reasons, not silently dropped)</li>
+<li><strong>149 phones → +1 E.164 · 148 dates → YYYY-MM-DD</strong>; 83 names re-cased; statuses standardized</li>
+<li><strong>12 phones + 13 dates + 13 values left blank for human review</strong> — unfixable cells are flagged, never faked</li>
+</ul>
+<p>See it yourself: <a href="before-after-preview.png">before/after screenshot</a> · <a href="messy-sample-200.csv">demo input CSV (200 rows)</a> · <a href="cleaned-crm-ready.csv">cleaned output CSV (161 rows)</a></p>
+<p class="small">Honest note: that's a demo file I built to prove the process — not a paying client (yet). Your order gets the same treatment and the same counts report, so you can verify every number.</p>
+</div>
+
+<div class="card">
 <h2>What you get</h2>
 <ul class="tick">
 <li><strong>Clean CSV</strong> — same columns, ready to import to your CRM or spreadsheet</li>

@@ -1,0 +1,201 @@
+id,full_name,email,phone,company,signup_date,deal_value,status
+1,Daniel Wright  ,daniel.wright14 @ hotmail.com,(602)279-6338,Upstream Analytics, 01-13-23 ,$198.57,Contacted 
+2,daniel wright,daniel.wright @ proton.me,718-569-2098,foxglove studio,2023-04-01,"USD 2,379.36",New
+3, Mark Lee ,mark.lee@icloud.com,(619)843-1256,Tidewater Goods,12-31-23,$828,CLOSED
+4,david martin,david.martin.77@stonebridge.com,1-404-958-4859,Redwood Capital ,2023/10/02,$257, new 
+5,Michael Perez,michael.perez4@@gmail.com, 602-963-5010 ,foothill farms,12/09/2023,"$3,093.04",CONTACTED
+6,megan Allen,megan.allen1990@gmail.com, 212-357-3532 ,Vantage Point,"Jan 15, 2023","USD 3,965.64", Qualified
+7,Ashley  Scott,ashley.scott@hotmail.com,3127694550,Yellowpine Outdoors,"March 25, 2024","$3,660.41",Close
+8,Stephanie Hernandez, stephanie.hernandez.98@gmail.com,,Copperfield Labs,11-10-23,"$1,195",CLOSED
+9,Rachel Mitchell,rachel.mitchell1992@cinder.com,(404) 886-8997,Vantage Point,25/02/2023,"$1,806.84",Closed
+10, Ella Robinson ,ella.robinson.75@@gmail.com,512-432-6737,Northwind Traders,"April 25, 2024","$4,579.82",CONTACTED
+11,SOPHIA JACKSON,sophia.jackson1998@proton.me,+1(415)342-8919,Vantage Point,06/30/2023,,Closed
+12,AARON WHITE,aaron.whitegmail.com,312-540-5721,Delta Supply,2024-06-14," 4,780.37 ", Qualified
+13,evelyn lewis,evelyn.lewis@juniper.com,(512) 948-3793,WESTBROOK CAFE,"March 24, 2024","$2,936.51",New 
+14,jennifer jones,jennifer.jones@yahoo.com,5122165624,Delta Supply ,05-10-23,572.05, Qualified
+15,Laura Green,laura.green.37@copperfield.com,1-206-537-4081,delta supply,10/04/2023,"$1,513.88",contactd
+16,kevin flores,kevin.flores @ gmail.com,(212)550-1249,EVERGREEN PARTNERS,15/04/2024,"$2,445",Contacted
+17,Scarlett Nelson,scarlett.nelson@proton.me,512 611 9054,FOXGLOVE STUDIO,12/22/2023,"$3,385.55",QUALIFIED
+18,James  White,james.white@outlook.com,,Brightline Co, 2023-06-16 ,"$1,579.22", new 
+19,Michael Perez,michael.perez4@@gmail.com,+1 602 963 5010,foothill farms,12/09/2023,"$3,093.04",CONTACTED
+20,melissa Taylor,melissa.taylor.99@gmail.com,6193717536, Evergreen Partners ,22/01/2023,"USD 3,291.09",Qualifed
+21,MEGAN NGUYEN,megan.nguyen@proton.me,512 310 8063,Cinder & Oak, 2024/03/03 ," 4,764.03 ",NEW 
+22,Sarah  Nguyen,SARAH.NGUYEN1986@YAHOO.COM,713.325.2864,EVERGREEN PARTNERS, 16/03/2024 ,"$4,351.41",qualified
+23,KEVIN WILSON,kevin.wilson@yahoo.com,503-276-6206,Harborlight,"January 16, 2023","$3,071",New
+24,Charlotte Lewis,charlotte.lewis.40proton.me,602 957 7089,Ironwood Group,"June 30, 2023"," 4,627.98 ",nEw
+25,Laura Lewis, LAURA.LEWIS77@OUTLOOK.COM ,1-617-907-9114,KESTREL MEDIA,05-05-2024,USD 276.12, new 
+26,Olivia Rivera,olivia.rivera@gmail.com,212 731 6146,Westbrook Cafe,19-06-2024,"1,677.29", Closed
+27, Stephen Baker ,stephen.baker@proton.me,+1 503 651 9484,northwind traders,,833.54, Qualified
+28,Rachel  Moore,rachel.moore15@gmail.com,(617)491-6361,bluefin boats,01-31-23,"USD 2,220.85", Qualified
+29,Stephanie  Carter,stephanie.carter.47@proton.me,(512)987-2613,Elm Street Auto , 12/11/2023 ," 4,120.84 ", contacted
+30,Kevin Lee  ,kevin.lee1991@hotmail.com,1-206-434-7721,Foxglove Studio, 2024-06-09 ,,contactd
+31,Rachel Hill,RACHEL.HILL@GMAIL.COM,312.988.5355,Lakeside Dental, 02/09/2024 , 581.72 , contacted
+32,HARPER garcia,harper.garcia.26 @ outlook.com,(305)590-5334,Westbrook Cafe,01-25-24,"1,633.44",contacted
+33,Jeremy Jackson,jeremy.jackson@@hotmail.com,1-206-720-7811,DELTA SUPPLY,,"4,682.03", new 
+34,KYLE HALL,kyle.hall@hotmail.com,+1(212)248-5739,Acme Inc,2024/02/25,"4,423.42",Hot lead
+35,Mark Anderson, mark.anderson@evergreen.com,+1 305 458 5218,JUNIPER WORKS,14-12-2023,"$4,239",NEW
+36,ella lopez,ELLA.LOPEZ.25@PROTON.ME,(617) 570-9811,Yellowpine Outdoors,28/08/2023,N/A,New*
+37,HARPER MITCHELL,harper.mitchell@gmail.com,+1 503 916 7678,UPSTREAM ANALYTICS, 2023/11/09 ,"4,778.55",Reached
+38,Isabella Lewis,isabella.lewis.9@@yahoo.com,6177698171,UPSTREAM ANALYTICS," December 20, 2023 ","$4,628.15",New 
+39,LINDA CARTER,linda.carter1986@hotmail.com,1-619-878-5416, Westbrook Cafe ,2024/07/07,"$2,772.54", contacted
+40,SOPHIA JACKSON,SOPHIA.JACKSON1998@PROTON.ME,+1(415)342-8919,Vantage Point,06/30/2023,,Closed
+41,JACOB CARTER,jacob.carter9@gmail.com,(503) 839-6796,vantage point,2024/02/15,"$4,376.96",qualified
+42,megan allen,megan.allen1990@gmail.com, 212-357-3532 ,Vantage Point,"Jan 15, 2023","USD 3,965.64", Qualified
+43,charlotte nguyen,charlotte.nguyen.41@oakline.com,415 562 2384,Evergreen Partners,2024/02/04,"1,691.75",CLOSED
+44,NATHAN RIVERA,nathan.rivera1985@driftless.com,+1 415 300 4857,Pinnacle Fitness,,"USD 3,805.28",Contacted 
+45,MEGAN NGUYEN,megan.nguyen@proton.me,512.310.8063,Cinder & Oak, 2024/03/03 ," 4,764.03 ",NEW 
+46,Jacob Nelson,jacob.nelson.71@gmail.com,+1(602)859-5517,Granite Peak,09/05/2024,"3,130.33", new 
+47, Kevin Davis ,KEVIN.DAVIS@GMAIL.COM,1-619-296-4415,granite peak,"Apr 26, 2023","$2,131.21",Closed 
+48,Eric Young,eric.young1993@gmail.com,5122708818,yellowpine outdoors,"Mar 10, 2024",USD 555.60,QUALIFIED
+49,Sophia Jackson,sophia.jackson1998@proton.me,+1(415)342-8919,Vantage Point,06/30/2023,,Closed
+50,emily williams,emily.williams@hotmail.com,+1(617)437-1594,Kestrel Media,05-13-23," 2,699.42 ",closed
+51,PAUL baker,paul.baker.16@gmail.com,4156305889,stonebridge,02/17/2024,,Contacted
+52,Nora Ramirez, nora.ramirez1987@yahoo.com ,(415) 898-7249,Evergreen Partners,"June 29, 2023","$2,033",Qualified
+53,ELLA ALLEN,ella.allen@proton,303.426.7170,Harborlight,06/07/2023,TBD,Contaced
+54,jeffrey sanchez,jeffrey.sanchez84@@proton.me,5129447207,Brightline Co,05/07/2024,"$3,304.20",Reached
+55,JACOB CARTER,jacob.carter9@gmail.com,5038396796,vantage point,2024/02/15,"$4,376.96",qualified
+56,Anthony Perez,anthony.perez37@yahoo.com,503 801 5156,FOOTHILL FARMS,"Jul 03, 2024",,Reached
+57,Daniel Hernandez,daniel.hernandez@brightline.com,,Northwind Traders,08-07-2023,"1,833.72",qualifed
+58,Abigail Smith,abigail.smith@proton.me,, Harborlight ," February 05, 2023 ","USD 3,858.28",Qualified
+59,Chloe Hernandez,CHLOE.HERNANDEZ1994@OUTLOOK.COM,619.738.8669,Maple & Main,2024/02/17,"USD 3,707.77", Closed
+60,EMILY CARTER,EMILY.CARTER1991@HOTMAIL.COM,(512) 955-2340,Redwood Capital,TBD,"USD 3,952.88",NEW
+61,sam clark,sam.clark@icloud,1-602-730-7098,Driftless Books,01-09-2023,"USD 3,593.71",New*
+62,robert roberts,robert.roberts1999@hotmail.com,+1 512 699 4226,Maple & Main,"July 26, 2023","2,883.27",Qualifed
+63,Hannah Allen,hannah.allen@yahoo,+1 619 539 8562,Harborlight,09/28/2023,USD 590.11,New 
+64,KEVIN KING,kevin.king@gmail.com,305 294 5649,DELTA SUPPLY,"February 20, 2024","USD 3,008.32",closed-won
+65, Brian Mitchell ,brian.mitchell@proton.me,4158129586,Northwind Traders,03-17-24,"$2,207.83",QUALIFIED
+66,Jacob Flores,jacob.flores@gmail.com,+1 503 344 5661, Redwood Capital ,12/03/2023,"USD 1,417.25",New
+67,abigail clark,abigail.clark39 @ gmail.com,+1 713 439 4572,MAPLE & MAIN,03-09-2023,"$3,442",Qaulified
+68,Stephanie  Moore,stephanie.moore@yahoo.com,617 732 9926,Granite Peak,TBD,"$2,224",new
+69,Kyle  Torres,kyle.torres@icloud.com,4158042709,Evergreen Partners,05-09-23,"2,438.70",Closed 
+70,Daniel Jones,DANIEL.JONES38@GMAIL.COM,(305) 350-6125,BRIGHTLINE CO,2024-03-22,"USD 1,532.30",Won
+71, Dylan Allen ,dylan.allen91@icloud.com,(512) 427-8104,Ironwood Group, 17/07/2024 ,"$1,789.54",NEW 
+72,Michael Perez,michael.perez4@@gmail.com,+1 602 963 5010,foothill farms,12/09/2023,"$3,093.04",CONTACTED
+73,Melissa Taylor,melissa.taylor.99@gmail.com,6193717536, Evergreen Partners ,22/01/2023,"USD 3,291.09",Qualifed
+74,ISABELLA NGUYEN,isabella.nguyen@zenith.com,312-606-8615,Maple & Main,2024-08-09,"3,109.94",Qualifed
+75, Nora Campbell ,nora.campbell12@@gmail.com,+1(718)847-1481,Upstream Analytics,08-03-2024,USD 199.40,Contaced
+76,ISABELLA NGUYEN,isabella.nguyen@zenith.com,312.606.8615,Maple & Main,2024-08-09,"3,109.94",Qualifed
+77,Jessica Roberts,JESSICA.ROBERTS1986@STONEBRIDGE.COM, +1 404 892 1083 ,Harborlight,2023-04-18,$42,contactd
+78,daniel lee,daniel.lee@proton.me,512 387 1724,Vantage Point,"March 30, 2024","1,217.75",closed-won
+79,abigail Campbell,abigail.campbell1991@gmail.com,5124659540, Quartzline ,02-08-2023,"2,535.50",qualified
+80,Matthew Martinez,matthew.martinez@gmail.com,(619) 316-3192,Harborlight, 23/02/2023 ,"$4,215.99",nEw
+81, Isabella Flores ,isabella.flores.27@zenith.com,+1 303 839 1060,Quartzline,18/08/2023,"$2,376.55",closed
+82,MIA SANCHEZ,mia.sanchez23@outlook.com, (206) 409-4804 ,Granite Peak,03/01/2024,"$2,163.05",NEW 
+83,Abigail Walker,ABIGAIL.WALKER.82@OUTLOOK.COM,1-415-861-3660,Tidewater Goods,"Sep 20, 2023","$1,758.27",Qualified
+84,Ashley  Scott, ashley.scott@hotmail.com,(312)769-4550,Yellowpine Outdoors,"March 25, 2024","$3,660.41",Close
+85,MELISSA RAMIREZ,melissa.ramirez@outlook.com,N/A,Redwood Capital,2024/07/23,"$3,716.98", Qualified
+86,Matthew Miller,matthew.miller@proton.me,+1 503 510 2646,Upstream Analytics,2023-06-14,"3,583.25",Contacted 
+87,Jessica Johnson,jessica.johnson@kestrel.com,(212)668-9719,Elm Street Auto,05/05/2024,"1,418.85",Hot lead
+88,AARON clark,aaron.clark10@icloud.com,1-617-635-8928,Oakline Realty,16-03-2024,TBD,CONTACTED
+89,VICTOR NGUYEN,victor.nguyen41proton.me,602.324.6951,Zenith Legal," February 02, 2023 ","$4,749", contacted
+90,RYAN JACKSON,ryan.jackson1988@gmail.com,6025525878,Vantage Point,15/03/2024,,NEW 
+91,Sam Walker,SAM.WALKER@GMAIL.COM,1-512-757-1491,Vantage Point,06-09-2023,"USD 3,217.51",CLOSED
+92,Jonathan Ramirez,JONATHAN.RAMIREZ44@ICLOUD.COM,+1 404 734 9807,Vantage Point,2024-05-20,"$3,653.25",New
+93,Eric Young, eric.young1993@gmail.com ,512 270 8818,yellowpine outdoors,"Mar 10, 2024",USD 555.60,QUALIFIED
+94,Zachary Thompson,ZACHARY.THOMPSON@PROTON.ME,713 648 1321,Driftless Books,2023/12/06," 1,491.28 ",contactd
+95,Mia King,mia.king1996@yahoo.com,602-731-7889,Foxglove Studio,04/26/2024,"$2,487.39",Qualified
+96,Nathan  Roberts,nathan.roberts.53@outlook.com,5122922601,Oakline Realty,"Sep 30, 2023",$127.40,nEw
+97,Hannah Walker,hannah.walker@gmail.com,312.563.1652,Stonebridge,01-08-23,"$1,975.72",NEW 
+98,ISABELLA NGUYEN,isabella.nguyen@zenith.com,312-606-8615,Maple & Main,2024-08-09,"3,109.94",Qualifed
+99,Chris Perez,chris.perez@icloud.com,713 569 2506,Foothill Farms, 2024-04-16 ,"4,666.29",QUALIFIED
+100,Aaron  Moore,AARON.MOORE85@OUTLOOK.COM,+1(404)972-2530,Bluefin Boats,2024/07/16,"USD 4,340.15",New
+101,Jessica Brown,jessica.brown.27@yahoo.com,6024125744,Lakeside Dental,TBD,"$3,027.53",nEw
+102,Kyle  Garcia, kyle.garcia.78@gmail.com ,1-512-562-7879,IRONWOOD GROUP, 2024-07-31 ,"$1,371",qualified
+103,EMILY WRIGHT,emily.wright@outlook.com,602-817-7516,Stonebridge,"Jul 26, 2023","1,475.66",Closed 
+104,Jason Moore,jason.moore1988@westbrook.com,(617)564-5466,HARBORLIGHT,"January 15, 2023","USD 4,426.77",contacted
+105,ROBERT RAMIREZ,robert.ramirez@gmail.com,+1(773)929-2175,FOOTHILL FARMS,"Nov 07, 2023", 38.05 ,contactd
+106,MELISSA RAMIREZ,melissa.ramirez@outlook.com,N/A,Redwood Capital,2024/07/23,"$3,716.98", Qualified
+107,Grace Brown,grace.brown@gmail.com,303 288 7863,Upstream Analytics,26-12-2023,"$2,758",Contacted
+108,laura torres,laura.torres.66@gmail.com,1-404-293-7414,Tidewater Goods,02/14/2023,"$3,809.56",qualified
+109,ROBERT RAMIREZ,robert.ramirez@gmail.com,773.929.2175,FOOTHILL FARMS,"Nov 07, 2023", 38.05 ,contactd
+110,Peter Smith,PETER.SMITH1998@GMAIL.COM,6198456152,cinder & oak,10-17-23,"3,659.16",New*
+111,Jeremy Rodriguez,jeremy.rodriguez.64@icloud.com,+1(212)986-8492, Granite Peak ,2023-12-06,"$3,652.38", Qualified
+112,Jonathan Moore,jonathan.moore27@gmail.com,,Evergreen Partners,03/19/2024,88.12,Won
+113,Brian Smith,brian.smith.47@hotmail.com,6027367544,STONEBRIDGE,2024-05-14, 808.94 ,NEW
+114,David Carter,DAVID.CARTER@YAHOO.COM,(404) 881-5784,Maple & Main,11/05/2023,N/A, new 
+115,Jennifer Johnson, jennifer.johnson@yahoo.com,(512) 632-6454,Cinder & Oak,"Jul 30, 2023"," 1,632.98 ",Qaulified
+116,victor baker, victor.baker@gmail.com,+1(512)243-8901,Stonebridge,"Jun 28, 2024"," 1,560.78 ",Reached
+117,Jonathan  Williams, jonathan.williams@delta.com ,(718)254-3975,Brightline Co,, 989.40 ,NEW 
+118,Maria Taylor,maria.taylor.27@yahoo.com,+1(303)683-6535,Stonebridge,01/22/2024,"$1,782",closed-won
+119,RYAN NELSON,ryan.nelson@juniper.com,,Oakline Realty,09/17/2023," 3,787.90 ",qualified
+120, Matthew Hall ,matthew.hall.21proton.me,+1(617)604-8329,Acme Inc,01-02-2024,$601.60,CONTACTED
+121,jacob torres, jacob.torres@outlook.com ,, Westbrook Cafe ,TBD,"4,688.73",Contacted
+122,GRACE young, grace.young1995@outlook.com ,+1(773)312-4932,Upstream Analytics,03/02/2023,"3,535.87",Closed
+123,Laura Lewis,LAURA.LEWIS77@OUTLOOK.COM,1-617-907-9114,KESTREL MEDIA,05-05-2024,USD 276.12, new 
+124,james thompson,james.thompson99@icloud.com,(303)314-4070,Bluefin Boats,27/03/2024,USD 611.40,Contacted
+125,harper martin,harper.martin.60@icloud.com,503.953.9722,stonebridge,2024-06-09, 114.78 ,qualifed
+126,Jonathan Ramirez,jonathan.ramirez44@icloud.com,+1 404 734 9807,Vantage Point,2024-05-20,"$3,653.25",New
+127,Megan Hernandez,megan.hernandez @ icloud.com,,Pinnacle Fitness, 2023/02/01 ,$406,new
+128,LINDA CARTER,linda.carter1986@hotmail.com,619 878 5416, Westbrook Cafe ,2024/07/07,"$2,772.54", contacted
+129,Rachel Scott,RACHEL.SCOTT@GMAIL.COM,+1(305)351-9362,Evergreen Partners, 22-02-2024 ,"$4,366", Qualified
+130,Carl Sanchez,carl.sanchez2001@hotmail.com,N/A,juniper works,"January 14, 2024","USD 3,105.25", Qualified
+131,Dylan Jackson,dylan.jackson98gmail.com,3126968777,Quartzline,26/05/2024,$812.04,NEW 
+132,abigail Robinson, abigail.robinson.91@outlook.com,303 416 1919,NORTHWIND TRADERS,12-15-23,USD 856.58,CONTACTED
+133, Charlotte Young ,charlotte.young1997@yahoo,404 826 2689,FOOTHILL FARMS,04-26-23,"4,031.87",Contaced
+134,ELLA RAMIREZ,ella.ramirez@icloud.com,+1 415 310 7558,PINNACLE FITNESS,2023-10-12,"1,896.83",New
+135,Hannah Walker,HANNAH.WALKER@GMAIL.COM,+1 312 563 1652,Stonebridge,01-08-23,"$1,975.72",NEW 
+136,Olivia Wright,olivia.wright@lakeside.com,(212)725-2438,Harborlight,"Apr 11, 2024",534.11,New*
+137,DAVID GONZALEZ,david.gonzalez@proton,(718) 670-5776,Lakeside Dental,"Jul 11, 2023",TBD,Reached
+138,Emily Mitchell,emily.mitchell.10@gmail.com,(404)984-5349,Driftless Books,2023/03/06,"$3,535",contactd
+139,Abigail  Adams,abigail.adams1985@westbrook.com,206 622 9183,evergreen partners,05/08/2023,USD 344.75,CONTACTED
+140,NATHAN HALL, nathan.hall@icloud.com,312 517 6515,Pinnacle Fitness,"June 24, 2024","USD 1,111.66",Qualified
+141,Sarah Williams  ,sarah.williams@hotmail.com,+1 718 616 4385, Westbrook Cafe ,19-06-2024,,NEW 
+142,Amanda Nguyen  ,AMANDA.NGUYEN@YAHOO.COM,(212) 792-2936,Kestrel Media,06/19/2023,"3,076.68",Close
+143,Evelyn Walker,evelyn.walker33@gmail.com,512 865 2976,vantage point,"Jul 01, 2023","2,987.24",Closed
+144,matthew Hill,matthew.hill@gmail.com,303.221.8865,Brightline Co, 28-10-2023 ,"USD 4,727.38",qualifed
+145,Sophia Flores,sophia.flores1996@gmail.com,312.557.4777,Foxglove Studio,"Apr 21, 2024","$1,799.85",qualified
+146,scarlett anderson,scarlett.anderson@proton.me,503 429 4692,Redwood Capital ,"Aug 22, 2024",TBD,nEw
+147,PETER MILLER,peter.miller@gmail.com,(303) 805-5977,Granite Peak,2023-06-17,"4,349.44",New
+148,Daniel Brown,daniel.brown.89@gmail.com,(415)423-3698,Stonebridge,"August 09, 2023","3,087.66",NEW 
+149,Kevin Hall,kevin.hall.48@proton,(212)791-1039,Juniper Works,TBD,"USD 2,675.92",contactd
+150,Emily Rodriguez,emily.rodriguez@gmail.com,(617)706-5035,Granite Peak,05/06/2023,"3,147.67",CLOSED
+151,Chloe  Garcia,CHLOE.GARCIA1986@ICLOUD.COM,+1 718 656 6863,Kestrel Media,,"3,205.89",closed-won
+152,NATHAN DAVIS,nathan.davis@hotmail,,granite peak,2024-08-11,"3,670.45",New
+153, Nora Campbell ,nora.campbell12@@gmail.com,718.847.1481,Upstream Analytics,08-03-2024,USD 199.40,Contaced
+154, Megan Martin ,megan.martin@gmail.com,619.313.4041,Acme Inc,"August 09, 2023","USD 1,272.25",Contaced
+155,Amelia Sanchez,amelia.sanchez@outlook.com,(713)361-4162,TIDEWATER GOODS,30-05-2023,$778.97,Contaced
+156,Amelia Hill,amelia.hill43@@icloud.com,617 884 1287,Maple & Main," Apr 01, 2024 ","$2,191.74",nEw
+157,JEFFREY CARTER, jeffrey.carter@gmail.com,, Driftless Books ,,"4,704.77",New 
+158, Jacob Sanchez ,jacob.sanchez@icloud.com,(312)778-5501,DELTA SUPPLY,05-09-23,"$1,171.28",Contaced
+159,Nicole Smith,nicole.smith1994@icloud.com,718.366.4025,Elm Street Auto,2024/03/27,$666.69,closed-won
+160,ASHLEY nguyen,ashley.nguyen@hotmail.com,+1(617)959-8574,Yellowpine Outdoors,03-28-23,"USD 2,160.96",Hot lead
+161,Rachel Lewis, rachel.lewis@gmail.com ,+1(206)949-2033,Zenith Legal,2024-08-09,N/A,Closed 
+162,Matthew Baker,matthew.baker29@@outlook.com,602.577.5056,northwind traders,11-08-23,$97,Contacted
+163,Lily Smith,lily.smithgmail.com,6174014922,Evergreen Partners," December 26, 2023 "," 2,910.83 ",closed
+164,Melissa Smith,melissa.smith60hotmail.com,1-718-674-7189, Brightline Co ,09/04/2023, 640.80 ,nEw
+165,Jacob Torres,jacob.torres.11@hotmail.com,+1 303 336 9206,stonebridge,N/A,$265.49,Hot lead
+166,grace nelson,grace.nelson@outlook.com,+1 512 464 4055,Westbrook Cafe, 01/23/2023 ,"1,183.12",Contacted 
+167,stephanie lopez, stephanie.lopez@hotmail.com ,619.293.6177,Delta Supply,"Apr 26, 2024","4,236.86", Qualified
+168,CHRIS JOHNSON,chris.johnson@gmail.com,, Granite Peak ,06-17-23,$43,qualifed
+169,PETER YOUNG,peter.young.78@proton.me,(619)571-1986,Upstream Analytics,10-22-23,"$2,731",Contaced
+170,Isabella Nguyen,isabella.nguyen@zenith.com,312 606 8615,Maple & Main,2024-08-09,"3,109.94",Qualifed
+171,JESSICA BAKER,jessica.baker@gmail.com,(206) 440-2804, Quartzline ,"August 20, 2023",849.01,NEW
+172,SOPHIA CARTER,sophia.carter47@hotmail.com,+1(602)224-7669,Granite Peak ,28-01-2023,N/A, new 
+173,ISABELLA WILSON,ISABELLA.WILSON@PROTON.ME,(617)267-4704,Foothill Farms, 23-08-2023 ,"3,379.20",QUALIFIED
+174,Michael Carter,michael.carter@gmail.com,212-819-9189,brightline co,2024-07-07,"USD 4,217.90",New*
+175,MIA MOORE,mia.moore@gmail.com,206-687-2725,Copperfield Labs, 2023/08/26 ,USD 220.95, contacted
+176,LINDA ROBINSON,linda.robinson17@quartzline.com,303 389 3206,Foxglove Studio,08/05/2023, 371.76 ,Contacted
+177,david martin,david.martin.77@stonebridge.com,+1 404 958 4859,Redwood Capital ,2023/10/02,$257, new 
+178,Ella Lee  ,ella.lee@proton.me,212.654.8386,Upstream Analytics,05/12/2023, 239.79 , Closed
+179,Maria  Robinson,maria.robinson@yahoo.com,+1 617 564 4730,BRIGHTLINE CO,03-29-24,USD 406.17,Closed
+180,Mia Nelson,mia.nelson.74@yahoo.com,718-997-6048,Zenith Legal ,," 1,031.06 ",New*
+181,Tyler Green,tyler.green29@gmail.com,619 793 4395, Elm Street Auto ,"Oct 04, 2023", 212.48 ,Qaulified
+182,AARON WHITE,aaron.whitegmail.com,312.540.5721,Delta Supply,2024-06-14," 4,780.37 ", Qualified
+183,Kyle  Torres, kyle.torres@icloud.com ,4158042709,Evergreen Partners,05-09-23,"2,438.70",Closed 
+184,JEREMY YOUNG,jeremy.young1992 @ hotmail.com,718 515 8831, Foxglove Studio ,"March 13, 2024","$4,519.34",new
+185,daniel lee,DANIEL.LEE@PROTON.ME,512 387 1724,Vantage Point,"March 30, 2024","1,217.75",closed-won
+186,JEREMY CLARK,jeremy.clark@foothill.com,(602) 819-5405,tidewater goods,"Mar 08, 2024","2,267.63",Contacted
+187,CHLOE NELSON,chloe.nelson66@outlook.com,312.631.1757,Stonebridge, 07/15/2024 , 701.59 ,Contacted 
+188,Eric  Martinez,ERIC.MARTINEZ@GMAIL.COM,1-312-533-4313,YELLOWPINE OUTDOORS,2023-10-12,"$4,731.45",Hot lead
+189,MIA WALKER,mia.walker.12@gmail.com,+1(503)261-2343,Pinnacle Fitness,2024/04/06,USD 174.64,Contaced
+190,Amanda Scott,amanda.scott@hotmail.com,+1(305)408-4158,Pinnacle Fitness,"Oct 29, 2023","$3,480.20",Reached
+191,David Robinson,david.robinson.63@gmail.com,+1 619 905 4068,Cinder & Oak,05/29/2024,"3,122.88",contacted
+192,Jonathan Moore,jonathan.moore1997@stonebridge.com,(404)739-8273,Stonebridge,2024-01-09,,contactd
+193,harper hall,harper.hall@gmail.com,713-202-7034,bluefin boats,07-04-24,"$1,751.46",contactd
+194,NORA HERNANDEZ,NORA.HERNANDEZ2002@WESTBROOK.COM,(773) 589-1202,Oakline Realty,"July 21, 2023","2,317.85", contacted
+195,Mia Sanchez, mia.sanchez23@outlook.com ,1-206-409-4804,Granite Peak,03/01/2024,"$2,163.05",NEW 
+196,MARK TORRES,mark.torres.34@icloud.com,(602) 443-7359, Oakline Realty ,04-19-24,"$1,998.21",Reached
+197,CHARLOTTE JACKSON,charlotte.jackson@outlook.com,(303) 309-9713,foxglove studio,12-14-23,"$1,859", new 
+198,jacob young,jacob.young1987@gmail.com,(617) 668-2959,maple & main,,"$1,885.70",Contacted
+199,Mia Adams,mia.adams@@gmail.com,512-340-1174,elm street auto,10-03-2024,167.26,Won
+200,jeremy thomas,jeremy.thomas.37@granite.com,(602) 833-6700,Zenith Legal,06/18/2023,$893,Close
